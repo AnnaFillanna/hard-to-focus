@@ -1,13 +1,22 @@
-.header {
-  position: relative;
+.page {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr min-content 1fr;
+  min-block-size: 100vh;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: var(--mainfont), monospace;
   background-image: var(--bg-image);
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.header {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr min-content 1fr;
   justify-items: start;
   align-items: start;
   min-block-size: 668px;
@@ -366,8 +375,8 @@
 
   .article__type-tips {
     grid-template-columns: 1fr 2fr;
-    grid-template-rows: auto 1fr;
-    gap: 0;
+
+    gap: 20px;
     padding-inline: 20px;
     padding-block: 60px 20px;
   }
