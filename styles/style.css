@@ -5,7 +5,7 @@
   background-color: var(--bg-color);
   color: var(--text-color);
   font-family: var(--mainfont), monospace;
-  background-image: var(--bg-image);
+
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
@@ -23,6 +23,11 @@
   block-size: 100vh;
   padding-inline: 10px;
   padding-block: 10px;
+  background-image: var(--bg-image);
+  background-size: cover;
+  background-position: center;
+  /* z-index: 0; */
+  object-fit: cover;
 }
 
 .header__theme-menu {
