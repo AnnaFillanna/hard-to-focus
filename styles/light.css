@@ -1,11 +1,11 @@
-
 :root.theme-light {
   --bg-color: #fff1f7;
   --text-color: #353430;
   --title-color: #ffc2e6;
   --decor-text-color: #353430;
   --accent-color: #ff8dcb;
-  --section-title-bg: #353430;
+  --section-title-bg: #ff8dcb;
+  --button-hover-border: rgba(50, 49, 45, 0.4);
   --bg-image: url('../images/cover-image-light.png');
 }
 
@@ -14,22 +14,10 @@
     --bg-color: #fff1f7;
     --text-color: #353430;
     --title-color: #ffc2e6;
+    --decor-text-color: #353430;
     --accent-color: #ff8dcb;
     --section-title-bg: #353430;
+    --button-hover-border: rgba(50, 49, 45, 0.4);
     --bg-image: url('../images/cover-image-light.png');
   }
-}
-
-.theme-light .decorated-element::before,
-.theme-light .decorated-element::after {
-  border-color: var(--section-title-bg);
-}
-
-.theme-light .rec,
-.theme-auto .rec {
-  display: none;
-}
-
-.theme-light .header__theme-menu-button {
-  color: var(--text-color);
 }
