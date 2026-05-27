@@ -9,8 +9,12 @@
   --bg-image: url('../images/cover-image-light.png');
 }
 
+.theme-light .rec {
+  display: none;
+}
+
 @media (prefers-color-scheme: light) {
-  :root:not(.theme-dark) {
+  :root:not(.theme-dark):not(.theme-light) {
     --bg-color: #fff1f7;
     --text-color: #353430;
     --title-color: #ffc2e6;
@@ -20,13 +24,8 @@
     --button-hover-border: rgba(50, 49, 45, 0.4);
     --bg-image: url('../images/cover-image-light.png');
   }
-}
-@media (prefers-color-scheme: light) {
-  :root:not(.theme-dark) .rec {
+
+  :root:not(.theme-dark):not(.theme-light) .rec {
     display: none;
   }
-}
-
-.theme-light .rec {
-  display: none;
 }

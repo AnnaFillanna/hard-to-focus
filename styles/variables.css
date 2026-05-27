@@ -25,13 +25,4 @@
   --button-hover-border: rgba(255, 0, 112, 0.4);
 }
 
-:root.theme-light {
-  --bg-color: #fff1f7;
-  --text-color: #353430;
-  --title-color: #353430;
-  --decor-text-color: #353430;
-  --accent-color: #ff8dcb;
-  --section-title-bg: #ff8dcb;
-  --bg-image: url('../images/cover-image-light.png');
-  --button-hover-border: rgba(50, 49, 45, 0.4);
-}
+

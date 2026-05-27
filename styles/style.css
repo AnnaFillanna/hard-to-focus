@@ -5,11 +5,8 @@
   background-color: var(--bg-color);
   color: var(--text-color);
   font-family: var(--mainfont), monospace;
-  background-image: var(--bg-image);
-  background-position: center;
   background-attachment: fixed;
-  background-size: cover;
-  background-repeat: no-repeat;
+
 }
 
 .header {
@@ -19,8 +16,12 @@
   grid-template-rows: 1fr min-content 1fr;
   justify-items: start;
   align-items: start;
-  min-block-size: 668px;
-  block-size: 100vh;
+  background-image: var(--bg-image);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  min-block-size: 100vh;
   padding-inline: 10px;
   padding-block: 10px;
 }
@@ -290,7 +291,7 @@
 
   .header,
   .footer {
-    min-block-size: 1024px;
+    min-block-size: 100vh;
   }
 
   .header__title,
@@ -449,7 +450,7 @@
 @media (width >= 1024px) {
   .header,
   .footer {
-    min-block-size: 768px;
+    min-block-size: 100vh;
     padding-inline: 0 20px;
     padding-block: var(--page-padding);
   }
