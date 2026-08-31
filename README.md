@@ -23,4 +23,4 @@ The website supports multiple color themes and adapts to the user's system theme
 
 ## Live Demo
 
-https://annafillanna.github.io/slozhno-sosredotochitsya-fd/
+https://annafillanna.github.io/hard-to-focus/
